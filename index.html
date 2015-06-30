@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>The Demigs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Denton, TX Band">
+    <meta name="author" content="The Demigs">
+
+    <!-- Styles -->
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="../assets/ico/favicon.png">
+  </head>
+
+  <body>
+    <div class="fluid-container center landing-container">
+      <p>
+        <!-- <img src="images/wtht.png" class="wtht" /> -->
+      </p>
+      <p>
+        <h1>
+          <a href="https://thedemigs.bandcamp.com/album/welcome-to-hard-times" target="_blank">Available now!</a>
+        </h1>
+        <h2>
+          On vinyl, CD, and digital download
+        </h2>
+        <a href="https://thedemigs.bandcamp.com/album/welcome-to-hard-times" target="_blank">
+          <img src="images/wtht-cover.png" class="wtht-cover" />
+        </a>
+      </p>
+    </div>
+    <div class="fluid-container center info">
+      <h2><a href="https://www.facebook.com/TheDemigs" target="_blank">Facebook</a>&nbsp;&nbsp;<a href="https://twitter.com/thedemigs" target="_blank">Twitter</a></h2>
+      <h3><a href="mailto:booking@demigs.com">booking@demigs.com</a></h3>
+
+    <div class="row-fluid">
+    	<div class="span12">
+	  		<div class="span4 offset1" style="padding-top: 45px;">
+          <!-- <iframe width="300" height="500" src="http://bandcamp.com/EmbeddedPlayer/v=2/album=431145553/size=grande2/bgcol=FFFFFF/linkcol=000000/" allowtransparency="true" frameborder="0"><a href="http://thedemigs.bandcamp.com/album/cities-can-wait">Cities Can Wait</a></iframe> -->
+          <iframe style="border: 0; width: 100%; height: 830px;" src="https://bandcamp.com/EmbeddedPlayer/album=1625533852/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/" seamless><a href="http://thedemigs.bandcamp.com/album/welcome-to-hard-times">Welcome to Hard Times by The Demigs</a></iframe>
+      </div>
+			<div class="span6" style="padding-top: 45px;">
+	    		<a href="http://www.songkick.com/artists/635755" class="songkick-widget" data-theme="light" style="float: left;">Upcoming shows</a>
+		 		<script src="//widget.songkick.com/widget.js"></script>
+	    	</div>
+    	</div>
+	</div>
+
+    <!-- Scripts -->
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $("a[href^='#']").click(function() {
+            scrollToAnchor($(this).attr('href'),'.15');
+            return false;
+        });
+        function scrollToAnchor(aid,offset){
+            var aTag = $(aid);
+            if (offset) var where = aTag.offset().top + (window.innerHeight * offset);
+            else var where = aTag.offset().top;
+            $('html,body').animate({scrollTop: where},'slow');
+        }
+    </script>
+
+  </body>
+</html>
